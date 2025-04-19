@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Aymen's Portfolio</title>
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="home.html" class="active">Home <i class='bx bx-home-alt'></i></a>
+      <a href="about.html">About</a>
+      <a href="service.php">Services</a>
+      <a href="poject.php">Project</a>
+      <a href="contact.php">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+  </div>
+
+  <header>
+    <div class="section__container header__container">
+      <p><span>Hello</span> I'm</p>
+      <h1>AYMEN</h1>
+      <h2 class="section__title">UI/UX <span>Designer.</span></h2>
+      <p>
+        Welcome to my web developer portfolio! I'm Aymen, a skilled and
+        creative web developer with a passion for creating beautiful,
+        responsive, and user-friendly websites. I've worked on a variety of
+        web projects, ranging from personal blogs to e-commerce platforms.
+      </p>
+      <div class="action__btns">
+        <a href="test.php">
+          <button class="btn">Entrer <i class='bx bx-user'></i></button>
+        </a>
+        <a href="https://www.youtube.com/playlist?list=PLXC_gcsKLD6n7p6tHPBxsKjN5hA_quaPI" class="video" target="_blank" rel="noopener noreferrer">
+          <div class="play">
+            <i class="ri-play-fill"></i>
+          </div>
+          <span>Watch My Video</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</body>
+</html>

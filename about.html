@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+      body{
+        background-color: var(--text-dark);
+      }
+     
+    </style>
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="home.html" class="active">Home <i class='bx bx-home-alt'></i></a>
+      <a href="about.html">About</a>
+      <a href="service.php">Services</a>
+      <a href="poject.php">Project</a>
+      <a href="contact.php">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+  </div>
+    <section class="about">
+        <div class="section__container about__container">
+          <div class="about__image">
+            <img src="about-bg.jpg" alt="about" />
+          </div>
+          <div class="about__content">
+            <h2 class="section__title">About <span>Me</span></h2>
+            <p class="section__subtitle">Creative UI/UX Designer!</p>
+            <p class="about__details">
+              As a UI/UX designer, I specialize in creating user interfaces and
+              experiences for digital products. I have extensive experience
+              working with product managers, developers, and other stakeholders to
+              gather requirements, create wireframes and prototypes, and conduct
+              user testing to ensure that the final product meets the needs of the
+              users. Throughout my career, I have achieved several milestones,
+              including designing successful digital products that have received
+              positive feedback from users and stakeholders.
+            </p>
+            
+          </div>
+        </div>
+      </section>
+</body>
+</html>
